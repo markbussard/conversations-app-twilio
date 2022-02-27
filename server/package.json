@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings --experimental-modules --es-module-specifier-resolution=node index.js",
+    "dev": "nodemon --no-warnings --experimental-modules --es-module-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3"
+  }
+}
